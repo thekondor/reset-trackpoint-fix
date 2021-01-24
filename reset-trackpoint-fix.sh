@@ -1,5 +1,7 @@
 #!/bin/sh
 
+### https://git.thekondor.net/?p=reset-trackpoint-fix.git (mirror: github.com/thekondor/reset-trackpoint-fix)
+
 . /etc/reset-trackpoint-fix.conf
 
 if [ -z "${DEVICE}" ]; then
