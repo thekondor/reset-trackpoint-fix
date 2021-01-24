@@ -1,0 +1,7 @@
+post_install() {
+    systemctl enable /etc/systemd/system/reset-trackpoint-fix.service
+}
+
+pre_remove() {
+    systemctl disable reset-trackpoint-fix.service
+}
